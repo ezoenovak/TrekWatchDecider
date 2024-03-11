@@ -14,7 +14,7 @@ shows_info = {
     "Discovery": {"seasons": 4, "episodes": [15, 14, 13, 13]},
     "Short Treks": {"seasons": 2, "episodes": [4, 6]},
     "Picard": {"seasons": 3, "episodes": [10] * 3},
-    "Lower Decks": {"seasons": 3, "episodes": [10] * 3},
+    "Lower Decks": {"seasons": 4, "episodes": [10] * 4},
     "Prodigy": {"seasons": 1, "episodes": [20]},
     "Strange New Worlds": {"seasons": 2, "episodes": [10] * 2}
 }
