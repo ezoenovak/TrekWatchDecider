@@ -19,6 +19,28 @@ shows_info = {
     "Strange New Worlds": {"seasons": 2, "episodes": [10] * 2}
 }
 
+animated_shows = ["The Animated Series", "Lower Decks", "Prodigy"]
+regular_shows = [
+    "The Original Series",
+    "The Next Generation",
+    "Deep Space Nine",
+    "Voyager",
+    "Discovery",
+    "Short Treks",
+    "Picard",
+    "Strange New Worlds"
+]
+
+choice = int(input("\nLet's watch some Trek!\nWhat are you in the mood for?\n"
+               "Enter 1 for series, 2 for animated series: "))
+if choice == 1:
+    show = random.choice(regular_shows)
+elif choice == 2:
+    show = random.choice(animated_shows)
+else:
+    print("Invalid choice. Please enter 1 or 2. ")
+    exit()
+
 show = random.choice(list(shows_info.keys()))
 if show in shows_info:
     show_info = shows_info[show]
@@ -26,3 +48,5 @@ if show in shows_info:
     max_episode = show_info["episodes"][season - 1]
     episode = random.randint(1, max_episode)
     print(f"Let's watch season {season}, episode {episode} of {show}!")
+
+
