@@ -11,11 +11,11 @@ shows_info = {
     "Deep Space Nine": {"seasons": 7, "episodes": [20, 26, 26, 26, 26, 26, 26]},
     "Voyager": {"seasons": 7, "episodes": [16, 26, 26, 26, 26, 26, 26]},
     "Enterprise": {"seasons": 4, "episodes": [26, 26, 24, 22]},
-    "Discovery": {"seasons": 4, "episodes": [15, 14, 13, 13]},
+    "Discovery": {"seasons": 5, "episodes": [15, 14, 13, 13, 10]},
     "Short Treks": {"seasons": 2, "episodes": [4, 6]},
     "Picard": {"seasons": 3, "episodes": [10] * 3},
     "Lower Decks": {"seasons": 4, "episodes": [10] * 4},
-    "Prodigy": {"seasons": 1, "episodes": [20]},
+    "Prodigy": {"seasons": 2, "episodes": [20, 20]},
     "Strange New Worlds": {"seasons": 2, "episodes": [10] * 2}
 }
 
